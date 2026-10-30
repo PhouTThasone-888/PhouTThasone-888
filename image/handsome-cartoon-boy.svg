@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Handsome cartoon boy</title>
+  <desc id="description">A cheerful 2D cartoon boy with a large head, dark wavy hair, and a blue jacket.</desc>
+  <defs>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#65c8ff"/>
+      <stop offset="1" stop-color="#3688e8"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#ffd9b5"/>
+      <stop offset="1" stop-color="#f2ad82"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="256" cy="476" rx="148" ry="19" fill="#24324a" opacity=".12"/>
+
+  <path d="M110 458c8-82 56-125 146-125s138 43 146 125v18H110z" fill="url(#shirt)"/>
+  <path d="M215 343l41 52 41-52-16-18h-50z" fill="#fff"/>
+  <path d="M246 396h20l17 80h-54z" fill="#26395b"/>
+  <path d="M110 458c8-82 56-125 146-125l-40 143H110z" fill="#54b5f5" opacity=".55"/>
+  <path d="M142 420l-32 31v25h48l28-90zM370 420l32 31v25h-48l-28-90z" fill="#3688e8"/>
+
+  <path d="M214 301v57c0 25 19 43 42 43s42-18 42-43v-57z" fill="url(#skin)"/>
+
+  <path d="M148 188c0-70 44-119 108-119s108 49 108 119v61c0 72-46 121-108 121s-108-49-108-121z" fill="url(#skin)"/>
+  <path d="M149 207c-15-17-23-44-15-75 7-30 28-45 47-49 14-34 51-51 93-47 27 3 48 13 61 31 30 3 50 28 51 59 12 23 10 54-3 78l-8 9-6-44c-16-4-29-17-36-35-32 22-83 31-134 24-8 21-23 37-41 45l-3 39z" fill="#263247"/>
+  <path d="M154 167c17-8 31-24 39-45 51 7 102-2 134-24 7 18 20 31 36 35l6 44 8-9c13-24 15-55 3-78-1-31-21-56-51-59-13-18-34-28-61-31-42-4-79 13-93 47-19 4-40 19-47 49-8 31 0 58 15 75z" fill="#263247"/>
+  <path d="M191 104c19-32 50-47 86-44 25 2 44 13 56 31-29 17-70 25-113 21-10-1-20-4-29-8z" fill="#35435c"/>
+
+  <path d="M190 210c12-10 29-11 42-3" fill="none" stroke="#573b39" stroke-width="8" stroke-linecap="round"/>
+  <path d="M279 207c13-8 30-7 42 3" fill="none" stroke="#573b39" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="213" cy="231" rx="13" ry="17" fill="#fff"/>
+  <ellipse cx="298" cy="231" rx="13" ry="17" fill="#fff"/>
+  <ellipse cx="216" cy="234" rx="7" ry="10" fill="#29344d"/>
+  <ellipse cx="295" cy="234" rx="7" ry="10" fill="#29344d"/>
+  <circle cx="218" cy="230" r="3" fill="#fff"/>
+  <circle cx="297" cy="230" r="3" fill="#fff"/>
+
+  <path d="M256 234c-5 15-11 32-9 38 2 5 8 7 15 5" fill="none" stroke="#d88f6d" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="185" cy="264" rx="17" ry="9" fill="#ee8e85" opacity=".42"/>
+  <ellipse cx="327" cy="264" rx="17" ry="9" fill="#ee8e85" opacity=".42"/>
+  <path d="M224 286c18 20 47 20 65 0" fill="#fff" stroke="#a94e54" stroke-width="6" stroke-linecap="round"/>
+  <path d="M229 287c15 9 40 9 55 0" fill="none" stroke="#e78c83" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M143 213c-12 0-19 11-18 27 1 17 10 29 24 30l-2-57zM369 213c12 0 19 11 18 27-1 17-10 29-24 30l2-57z" fill="#f2ad82"/>
+  <path d="M184 373l-18 37 26 19 34-48zM328 373l18 37-26 19-34-48z" fill="#fff"/>
+  <path d="M166 410l-17 42 36 22 32-53zM346 410l17 42-36 22-32-53z" fill="#4ca9ee"/>
+</svg>
