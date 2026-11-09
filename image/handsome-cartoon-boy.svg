@@ -1,48 +1,215 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
   <title id="title">Handsome cartoon boy</title>
-  <desc id="description">A cheerful 2D cartoon boy with a large head, dark wavy hair, and a blue jacket.</desc>
+  <desc id="description">A handsome, charming, stylish 2D cartoon boy with voluminous wavy hair, expressive eyes, and a sharp blue jacket.</desc>
   <defs>
-    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#65c8ff"/>
-      <stop offset="1" stop-color="#3688e8"/>
+    <!-- Background Gradient -->
+    <linearGradient id="bgSphere" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
-    <linearGradient id="skin" x1="0" y1="0" x2="0.8" y2="1">
-      <stop offset="0" stop-color="#ffd9b5"/>
-      <stop offset="1" stop-color="#f2ad82"/>
+
+    <!-- Skin Tones -->
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff0e5"/>
+      <stop offset="55%" stop-color="#ffd5be"/>
+      <stop offset="100%" stop-color="#fcae8c"/>
     </linearGradient>
+
+    <linearGradient id="skinShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59c74"/>
+      <stop offset="100%" stop-color="#de7548"/>
+    </linearGradient>
+
+    <!-- Hair Shading -->
+    <linearGradient id="hairDark" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#364359"/>
+      <stop offset="40%" stop-color="#222c3c"/>
+      <stop offset="100%" stop-color="#141a24"/>
+    </linearGradient>
+
+    <linearGradient id="hairWave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a5c78"/>
+      <stop offset="100%" stop-color="#222c3c"/>
+    </linearGradient>
+
+    <linearGradient id="hairGloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6982a8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9bb5db" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#6982a8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Jacket & Clothes -->
+    <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="45%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+
+    <linearGradient id="jacketShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+
+    <!-- Eyes -->
+    <linearGradient id="irisGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
   </defs>
 
-  <ellipse cx="256" cy="476" rx="148" ry="19" fill="#24324a" opacity=".12"/>
+  <!-- Avatar Backdrop -->
+  <circle cx="256" cy="256" r="236" fill="url(#bgSphere)"/>
+  <circle cx="256" cy="256" r="235" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.25"/>
 
-  <path d="M110 458c8-82 56-125 146-125s138 43 146 125v18H110z" fill="url(#shirt)"/>
-  <path d="M215 343l41 52 41-52-16-18h-50z" fill="#fff"/>
-  <path d="M246 396h20l17 80h-54z" fill="#26395b"/>
-  <path d="M110 458c8-82 56-125 146-125l-40 143H110z" fill="#54b5f5" opacity=".55"/>
-  <path d="M142 420l-32 31v25h48l28-90zM370 420l32 31v25h-48l-28-90z" fill="#3688e8"/>
+  <!-- === BODY & CLOTHES === -->
+  <g id="body">
+    <!-- Jacket Base / Shoulders -->
+    <path d="M85 505 C92 415, 140 358, 204 344 L308 344 C372 358, 420 415, 427 505 Z" fill="url(#jacket)"/>
+    <path d="M85 505 C92 415, 140 358, 204 344 L226 395 L132 505 Z" fill="#0284c7" opacity="0.45"/>
+    <path d="M427 505 C420 415, 372 358, 308 344 L286 395 L380 505 Z" fill="#0369a1" opacity="0.5"/>
 
-  <path d="M214 301v57c0 25 19 43 42 43s42-18 42-43v-57z" fill="url(#skin)"/>
+    <!-- White Collared Shirt -->
+    <path d="M204 344 L230 435 L256 408 L282 435 L308 344 Z" fill="#ffffff"/>
+    <path d="M236 422 L256 455 L276 422 L268 505 L244 505 Z" fill="#0f172a"/>
 
-  <path d="M148 188c0-70 44-119 108-119s108 49 108 119v61c0 72-46 121-108 121s-108-49-108-121z" fill="url(#skin)"/>
-  <path d="M149 207c-15-17-23-44-15-75 7-30 28-45 47-49 14-34 51-51 93-47 27 3 48 13 61 31 30 3 50 28 51 59 12 23 10 54-3 78l-8 9-6-44c-16-4-29-17-36-35-32 22-83 31-134 24-8 21-23 37-41 45l-3 39z" fill="#263247"/>
-  <path d="M154 167c17-8 31-24 39-45 51 7 102-2 134-24 7 18 20 31 36 35l6 44 8-9c13-24 15-55 3-78-1-31-21-56-51-59-13-18-34-28-61-31-42-4-79 13-93 47-19 4-40 19-47 49-8 31 0 58 15 75z" fill="#263247"/>
-  <path d="M191 104c19-32 50-47 86-44 25 2 44 13 56 31-29 17-70 25-113 21-10-1-20-4-29-8z" fill="#35435c"/>
+    <!-- Modern Jacket Lapels -->
+    <path d="M204 344 L244 456 L222 456 L186 362 Z" fill="url(#jacketShadow)"/>
+    <path d="M196 344 L236 450 L220 450 L186 362 Z" fill="#38bdf8"/>
+    <path d="M308 344 L268 456 L290 456 L326 362 Z" fill="url(#jacketShadow)"/>
+    <path d="M316 344 L276 450 L292 450 L326 362 Z" fill="#0ea5e9"/>
 
-  <path d="M190 210c12-10 29-11 42-3" fill="none" stroke="#573b39" stroke-width="8" stroke-linecap="round"/>
-  <path d="M279 207c13-8 30-7 42 3" fill="none" stroke="#573b39" stroke-width="8" stroke-linecap="round"/>
-  <ellipse cx="213" cy="231" rx="13" ry="17" fill="#fff"/>
-  <ellipse cx="298" cy="231" rx="13" ry="17" fill="#fff"/>
-  <ellipse cx="216" cy="234" rx="7" ry="10" fill="#29344d"/>
-  <ellipse cx="295" cy="234" rx="7" ry="10" fill="#29344d"/>
-  <circle cx="218" cy="230" r="3" fill="#fff"/>
-  <circle cx="297" cy="230" r="3" fill="#fff"/>
+    <!-- Modern Seam Lines -->
+    <path d="M128 468 C154 430, 184 408, 214 398" stroke="#0369a1" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M384 468 C358 430, 328 408, 298 398" stroke="#0369a1" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
 
-  <path d="M256 234c-5 15-11 32-9 38 2 5 8 7 15 5" fill="none" stroke="#d88f6d" stroke-width="5" stroke-linecap="round"/>
-  <ellipse cx="185" cy="264" rx="17" ry="9" fill="#ee8e85" opacity=".42"/>
-  <ellipse cx="327" cy="264" rx="17" ry="9" fill="#ee8e85" opacity=".42"/>
-  <path d="M224 286c18 20 47 20 65 0" fill="#fff" stroke="#a94e54" stroke-width="6" stroke-linecap="round"/>
-  <path d="M229 287c15 9 40 9 55 0" fill="none" stroke="#e78c83" stroke-width="4" stroke-linecap="round"/>
+  <!-- === NECK === -->
+  <g id="neck">
+    <path d="M204 255 L204 352 C204 366, 308 366, 308 352 L308 255 Z" fill="url(#skin)"/>
+    <!-- Chin Shadow on Neck -->
+    <path d="M204 255 C232 305, 280 305, 308 255 L308 305 C282 332, 230 332, 204 305 Z" fill="url(#skinShadow)" opacity="0.85"/>
+    <!-- Throat Contour -->
+    <path d="M256 312 L256 334" stroke="#de7548" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+    <path d="M234 346 C246 354, 266 354, 278 346" stroke="#de7548" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.35"/>
+  </g>
 
-  <path d="M143 213c-12 0-19 11-18 27 1 17 10 29 24 30l-2-57zM369 213c12 0 19 11 18 27-1 17-10 29-24 30l2-57z" fill="#f2ad82"/>
-  <path d="M184 373l-18 37 26 19 34-48zM328 373l18 37-26 19-34-48z" fill="#fff"/>
-  <path d="M166 410l-17 42 36 22 32-53zM346 410l17 42-36 22-32-53z" fill="#4ca9ee"/>
+  <!-- === EARS === -->
+  <g id="ears">
+    <!-- Left Ear -->
+    <path d="M165 192 C136 192, 136 256, 168 262 C170 244, 170 214, 165 192 Z" fill="url(#skin)"/>
+    <path d="M158 208 C148 218, 148 244, 163 248" stroke="#de7548" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    
+    <!-- Right Ear -->
+    <path d="M347 192 C376 192, 376 256, 344 262 C342 244, 342 214, 347 192 Z" fill="url(#skin)"/>
+    <path d="M354 208 C364 218, 364 244, 349 248" stroke="#de7548" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- === HEAD & FACE === -->
+  <g id="head">
+    <!-- Sculpted Handsome Face (Defined Chin & Jawline) -->
+    <path d="M164 175 
+             C162 120, 195 90, 256 90 
+             C317 90, 350 120, 348 175 
+             C348 222, 342 250, 328 274 
+             C310 302, 280 320, 256 320 
+             C232 320, 202 302, 184 274 
+             C170 250, 164 222, 164 175 Z" 
+          fill="url(#skin)"/>
+
+    <!-- Healthy Natural Cheek Blush -->
+    <ellipse cx="192" cy="242" rx="20" ry="10" fill="#f43f5e" opacity="0.22" filter="url(#softGlow)"/>
+    <ellipse cx="320" cy="242" rx="20" ry="10" fill="#f43f5e" opacity="0.22" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- === EYES === -->
+  <g id="eyes">
+    <!-- Left Eye -->
+    <g id="leftEye">
+      <ellipse cx="212" cy="216" rx="14" ry="16" fill="#ffffff"/>
+      <ellipse cx="214" cy="216" rx="9" ry="10.5" fill="url(#irisGrad)"/>
+      <circle cx="214" cy="215" r="4.5" fill="#020617"/>
+      <circle cx="210" cy="211" r="3.5" fill="#ffffff"/>
+      <circle cx="218" cy="220" r="1.5" fill="#ffffff" opacity="0.9"/>
+      <path d="M196 215 C204 200, 226 200, 234 215" stroke="#0f172a" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      <path d="M200 201 C208 195, 222 195, 229 201" stroke="#de7548" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+    </g>
+
+    <!-- Right Eye -->
+    <g id="rightEye">
+      <ellipse cx="300" cy="216" rx="14" ry="16" fill="#ffffff"/>
+      <ellipse cx="298" cy="216" rx="9" ry="10.5" fill="url(#irisGrad)"/>
+      <circle cx="298" cy="215" r="4.5" fill="#020617"/>
+      <circle cx="294" cy="211" r="3.5" fill="#ffffff"/>
+      <circle cx="302" cy="220" r="1.5" fill="#ffffff" opacity="0.9"/>
+      <path d="M278 215 C286 200, 308 200, 316 215" stroke="#0f172a" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      <path d="M283 201 C290 195, 304 195, 312 201" stroke="#de7548" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+    </g>
+
+    <!-- Eyebrows -->
+    <path d="M184 180 C202 170, 224 172, 236 180" stroke="#1e293b" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M328 180 C310 170, 288 172, 276 180" stroke="#1e293b" stroke-width="7" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- === NOSE === -->
+  <g id="nose">
+    <path d="M255 202 L253 242 C253 248, 260 250, 264 246" stroke="#de7548" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <ellipse cx="260" cy="245" rx="3.5" ry="2" fill="#de7548" opacity="0.35"/>
+    <circle cx="255" cy="241" r="2" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <!-- === MOUTH === -->
+  <g id="mouth">
+    <path d="M226 270 C236 292, 276 292, 286 270 Z" fill="#881337"/>
+    <path d="M229 271 C240 280, 272 280, 283 271 Z" fill="#ffffff"/>
+    <path d="M242 285 C248 282, 264 282, 270 285 C264 290, 248 290, 242 285 Z" fill="#fb7185"/>
+    <path d="M224 270 C242 275, 270 275, 288 270" stroke="#4c0519" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M245 296 C252 299, 260 299, 267 296" stroke="#de7548" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- === VOLUMINOUS ICONIC WAVY HAIR === -->
+  <g id="hair">
+    <!-- Solid Base Volume Silhouette -->
+    <path d="M142 195 
+             C122 135, 142 75, 185 45 
+             C215 24, 255 20, 290 26 
+             C335 34, 380 62, 400 115 
+             C410 142, 404 185, 388 215 
+             C374 220, 354 198, 350 168
+             C335 152, 312 145, 288 152
+             C265 158, 242 142, 218 145
+             C192 148, 172 165, 160 172
+             C156 195, 146 205, 142 195 Z" 
+          fill="url(#hairDark)"/>
+
+    <!-- 3 Sculpted Wave Puffs on Top -->
+    <path d="M146 162 C132 100, 172 45, 226 34 C244 30, 256 40, 252 64 C236 94, 192 108, 160 145 Z" fill="url(#hairWave)"/>
+    <path d="M208 38 C235 16, 282 12, 314 30 C290 55, 250 65, 208 38 Z" fill="url(#hairWave)"/>
+    <path d="M292 24 C340 16, 385 40, 396 85 C372 70, 335 55, 292 24 Z" fill="url(#hairWave)"/>
+
+    <!-- Sideburns -->
+    <path d="M162 165 C166 188, 168 218, 174 226 C176 228, 179 218, 178 188 Z" fill="url(#hairDark)"/>
+    <path d="M350 165 C346 188, 344 218, 338 226 C336 228, 333 218, 334 188 Z" fill="url(#hairDark)"/>
+
+    <!-- Wave Strands Framing Forehead -->
+    <path d="M160 168 C175 142, 210 140, 228 162 C215 164, 195 156, 175 168 Z" fill="url(#hairDark)"/>
+    <path d="M185 110 C218 85, 264 92, 274 140 C258 134, 236 126, 212 134 C194 140, 184 150, 185 110 Z" fill="url(#hairDark)"/>
+    <path d="M228 138 C250 126, 276 135, 282 162 C272 158, 258 148, 242 150 C234 152, 230 158, 228 138 Z" fill="url(#hairDark)"/>
+    <path d="M280 135 C315 125, 346 145, 350 172 C340 160, 322 150, 298 150 Z" fill="url(#hairDark)"/>
+
+    <!-- Silky Hair Gloss Bands -->
+    <path d="M175 60 C230 36, 306 38, 360 68" stroke="url(#hairGloss)" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M188 82 C238 62, 298 62, 344 88" stroke="url(#hairGloss)" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Fine Hair Highlights -->
+    <path d="M162 108 C185 84, 222 72, 254 70" stroke="#9bb5db" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.65"/>
+    <path d="M242 56 C278 48, 320 60, 350 84" stroke="#9bb5db" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.65"/>
+    <path d="M200 125 C222 110, 246 114, 260 128" stroke="#9bb5db" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+    <path d="M282 122 C302 116, 326 124, 342 142" stroke="#9bb5db" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  </g>
 </svg>
