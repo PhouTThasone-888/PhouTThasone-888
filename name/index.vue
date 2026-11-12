@@ -13,3 +13,4 @@ Galaxy
 Future
 Create
 Build
+Speed
