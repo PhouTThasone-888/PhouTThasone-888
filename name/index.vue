@@ -16,3 +16,4 @@ Build
 Speed
 Growth
 Power
+Vision
