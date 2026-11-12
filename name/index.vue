@@ -9,3 +9,4 @@ Vue
 Developer
 Success
 Star
+Galaxy
