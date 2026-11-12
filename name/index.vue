@@ -17,3 +17,4 @@ Speed
 Growth
 Power
 Vision
+Victory
