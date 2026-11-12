@@ -8,3 +8,4 @@ Main
 Vue
 Developer
 Success
+Star
