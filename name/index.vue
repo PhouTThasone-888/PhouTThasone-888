@@ -15,3 +15,4 @@ Create
 Build
 Speed
 Growth
+Power
