@@ -21,3 +21,4 @@ Victory
 Energy
 Dream
 Focus
+Champion
