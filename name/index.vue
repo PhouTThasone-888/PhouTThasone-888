@@ -20,3 +20,4 @@ Vision
 Victory
 Energy
 Dream
+Focus
