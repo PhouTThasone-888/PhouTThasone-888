@@ -18,3 +18,4 @@ Growth
 Power
 Vision
 Victory
+Energy
