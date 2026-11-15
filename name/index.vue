@@ -25,3 +25,4 @@ Champion
 Inspire
 Courage
 Summit
+Brilliant
