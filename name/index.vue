@@ -30,3 +30,4 @@ Infinite
 Apex
 Spark
 Quantum
+Nexus
