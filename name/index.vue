@@ -24,3 +24,4 @@ Focus
 Champion
 Inspire
 Courage
+Summit
