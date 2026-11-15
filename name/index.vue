@@ -31,3 +31,4 @@ Apex
 Spark
 Quantum
 Nexus
+Legend
