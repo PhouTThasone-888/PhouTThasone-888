@@ -23,3 +23,4 @@ Dream
 Focus
 Champion
 Inspire
+Courage
