@@ -22,3 +22,4 @@ Energy
 Dream
 Focus
 Champion
+Inspire
