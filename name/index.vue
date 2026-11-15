@@ -26,3 +26,4 @@ Inspire
 Courage
 Summit
 Brilliant
+Infinite
