@@ -39,3 +39,4 @@ Echo
 Radiant
 Titan
 Zenith
+Blaze
