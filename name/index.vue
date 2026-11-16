@@ -33,3 +33,4 @@ Quantum
 Nexus
 Legend
 Sunrise
+Horizon
