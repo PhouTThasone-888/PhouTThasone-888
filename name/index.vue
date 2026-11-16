@@ -41,3 +41,4 @@ Titan
 Zenith
 Blaze
 Starlight
+Infinity
