@@ -40,3 +40,4 @@ Radiant
 Titan
 Zenith
 Blaze
+Starlight
