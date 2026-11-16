@@ -37,3 +37,4 @@ Horizon
 Pioneer
 Echo
 Radiant
+Titan
