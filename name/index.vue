@@ -34,3 +34,4 @@ Nexus
 Legend
 Sunrise
 Horizon
+Pioneer
