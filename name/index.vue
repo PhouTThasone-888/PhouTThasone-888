@@ -46,3 +46,4 @@ Cosmos
 Voyage
 Velocity
 Phoenix
+Aurora
