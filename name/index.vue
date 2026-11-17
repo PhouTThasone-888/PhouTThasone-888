@@ -53,3 +53,4 @@ Valiant
 Triumph
 Eternity
 Solstice
+Serenity
