@@ -42,3 +42,4 @@ Zenith
 Blaze
 Starlight
 Infinity
+Cosmos
