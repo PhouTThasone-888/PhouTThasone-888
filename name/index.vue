@@ -55,3 +55,4 @@ Eternity
 Solstice
 Serenity
 Nebula
+Astral
