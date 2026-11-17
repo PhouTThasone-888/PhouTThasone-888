@@ -57,3 +57,4 @@ Serenity
 Nebula
 Astral
 Pulse
+Vanguard
