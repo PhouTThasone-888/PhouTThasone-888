@@ -44,3 +44,4 @@ Starlight
 Infinity
 Cosmos
 Voyage
+Velocity
