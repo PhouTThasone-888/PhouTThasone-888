@@ -54,3 +54,4 @@ Triumph
 Eternity
 Solstice
 Serenity
+Nebula
