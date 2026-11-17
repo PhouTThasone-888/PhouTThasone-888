@@ -50,3 +50,4 @@ Aurora
 Eclipse
 Ignite
 Valiant
+Triumph
