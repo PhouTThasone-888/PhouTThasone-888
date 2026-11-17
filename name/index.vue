@@ -56,3 +56,4 @@ Solstice
 Serenity
 Nebula
 Astral
+Pulse
