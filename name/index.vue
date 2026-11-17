@@ -47,3 +47,4 @@ Voyage
 Velocity
 Phoenix
 Aurora
+Eclipse
