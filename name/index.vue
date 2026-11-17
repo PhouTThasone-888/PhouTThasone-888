@@ -52,3 +52,4 @@ Ignite
 Valiant
 Triumph
 Eternity
+Solstice
