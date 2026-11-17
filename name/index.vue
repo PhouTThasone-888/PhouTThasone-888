@@ -43,3 +43,4 @@ Blaze
 Starlight
 Infinity
 Cosmos
+Voyage
