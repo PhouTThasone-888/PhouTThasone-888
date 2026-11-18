@@ -67,3 +67,4 @@ Prism
 Helios
 Ascent
 Zenith
+Eclipse
