@@ -62,3 +62,4 @@ Genesis
 Beacon
 Odyssey
 Celestial
+Valence
