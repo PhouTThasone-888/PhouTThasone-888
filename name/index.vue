@@ -59,3 +59,4 @@ Astral
 Pulse
 Vanguard
 Genesis
+Beacon
