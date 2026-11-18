@@ -61,3 +61,4 @@ Vanguard
 Genesis
 Beacon
 Odyssey
+Celestial
