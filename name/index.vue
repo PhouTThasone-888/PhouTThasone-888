@@ -71,3 +71,4 @@ Eclipse
 Radiant
 Aurora
 Horizon
+Stellar
