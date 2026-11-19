@@ -77,3 +77,4 @@ Vortex
 Mirage
 Galaxy
 Cosmos
+Infinity
