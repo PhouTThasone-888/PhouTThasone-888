@@ -78,3 +78,4 @@ Mirage
 Galaxy
 Cosmos
 Infinity
+Pinnacle
