@@ -76,3 +76,4 @@ Quantum
 Vortex
 Mirage
 Galaxy
+Cosmos
