@@ -69,3 +69,4 @@ Ascent
 Zenith
 Eclipse
 Radiant
+Aurora
