@@ -70,3 +70,4 @@ Zenith
 Eclipse
 Radiant
 Aurora
+Horizon
