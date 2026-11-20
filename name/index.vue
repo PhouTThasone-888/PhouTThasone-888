@@ -79,3 +79,4 @@ Galaxy
 Cosmos
 Infinity
 Pinnacle
+Apex
