@@ -84,3 +84,4 @@ Lumina
 Cascade
 Citadel
 Enigma
+Solaria
