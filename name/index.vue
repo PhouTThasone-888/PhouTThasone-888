@@ -87,3 +87,4 @@ Enigma
 Solaria
 Titan
 Chronos
+Sovereign
