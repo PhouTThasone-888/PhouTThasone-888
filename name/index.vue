@@ -6,3 +6,4 @@ Polaris
 Nautilus
 Hyperion
 Zephyr
+Aethel
