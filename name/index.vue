@@ -3,3 +3,4 @@ Ethereal
 Seraph
 Valhalla
 Polaris
+Nautilus
