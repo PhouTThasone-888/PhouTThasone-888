@@ -4,3 +4,4 @@ Seraph
 Valhalla
 Polaris
 Nautilus
+Hyperion
