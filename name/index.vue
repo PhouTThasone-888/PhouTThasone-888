@@ -8,3 +8,4 @@ Hyperion
 Zephyr
 Aethel
 Elysium
+Starlight
