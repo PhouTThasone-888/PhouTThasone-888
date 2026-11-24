@@ -11,3 +11,4 @@ Elysium
 Starlight
 Equinox
 Borealis
+Empyrean
