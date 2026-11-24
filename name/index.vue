@@ -9,3 +9,4 @@ Zephyr
 Aethel
 Elysium
 Starlight
+Equinox
