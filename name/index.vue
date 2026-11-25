@@ -18,3 +18,4 @@ Solitude
 Vantage
 Luminescence
 Seraphim
+Continuum
