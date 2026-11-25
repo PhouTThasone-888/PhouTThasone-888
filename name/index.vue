@@ -13,3 +13,4 @@ Equinox
 Borealis
 Empyrean
 Cascade
+Meridian
