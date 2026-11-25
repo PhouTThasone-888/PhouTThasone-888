@@ -14,3 +14,4 @@ Borealis
 Empyrean
 Cascade
 Meridian
+Solitude
