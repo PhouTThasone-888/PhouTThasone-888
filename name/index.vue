@@ -17,3 +17,4 @@ Meridian
 Solitude
 Vantage
 Luminescence
+Seraphim
