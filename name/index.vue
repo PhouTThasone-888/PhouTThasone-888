@@ -21,3 +21,4 @@ Seraphim
 Continuum
 Resonance
 Epoch
+Paragon
