@@ -22,3 +22,4 @@ Continuum
 Resonance
 Epoch
 Paragon
+Symphony
