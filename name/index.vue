@@ -19,3 +19,4 @@ Vantage
 Luminescence
 Seraphim
 Continuum
+Resonance
