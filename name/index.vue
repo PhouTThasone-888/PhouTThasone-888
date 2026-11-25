@@ -15,3 +15,4 @@ Empyrean
 Cascade
 Meridian
 Solitude
+Vantage
