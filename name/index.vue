@@ -26,3 +26,4 @@ Symphony
 Momentum
 Catalyst
 Aegis
+Valor
