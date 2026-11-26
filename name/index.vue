@@ -24,3 +24,4 @@ Epoch
 Paragon
 Symphony
 Momentum
+Catalyst
