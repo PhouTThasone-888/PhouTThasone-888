@@ -30,3 +30,4 @@ Valor
 Nova
 Orion
 Solaris
+Vertex
