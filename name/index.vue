@@ -36,3 +36,4 @@ Aether
 Stratos
 Vector
 Synergy
+Quasar
