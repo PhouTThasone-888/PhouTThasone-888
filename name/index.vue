@@ -29,3 +29,4 @@ Aegis
 Valor
 Nova
 Orion
+Solaris
