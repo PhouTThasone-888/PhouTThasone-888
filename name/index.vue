@@ -31,3 +31,4 @@ Nova
 Orion
 Solaris
 Vertex
+Kinetic
