@@ -35,3 +35,4 @@ Kinetic
 Aether
 Stratos
 Vector
+Synergy
