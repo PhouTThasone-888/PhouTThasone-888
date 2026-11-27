@@ -33,3 +33,4 @@ Solaris
 Vertex
 Kinetic
 Aether
+Stratos
